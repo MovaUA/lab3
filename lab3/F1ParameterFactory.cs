@@ -2,9 +2,9 @@ using System;
 
 namespace lab3
 {
-	public class F1ParameterFactory : IParameterFactory<F1Parameter>
+	public class F1ParameterFactory : IParameterFactory
 	{
-		public F1Parameter Create(string[] args)
+		public IParameter Create(string[] args)
 		{
 			// parsing:
 
